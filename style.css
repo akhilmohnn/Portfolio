@@ -353,6 +353,16 @@ section {
   text-align: center;
 }
 
+.details-container.color-container {
+  transition: transform 0.3s ease; /* Smooth transition for the scaling effect */
+}
+
+.details-container.color-container:hover {
+  transform: scale(1.1); /* Scale up by 10% on hover */
+  z-index: 1; /* Bring the hovered item in front of others */
+}
+
+
 .section-container {
   gap: 4rem;
   height: 80%;
